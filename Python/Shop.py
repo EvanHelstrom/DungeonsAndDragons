@@ -1,7 +1,3 @@
-file = open('interface.csv')
-lines = file.read
-pickNpc()
-
 def pickNpc():
     print("You see three shops on the street.")
     name = input("Which do you approach? The (F)irst (S)econd or (T)hird")
@@ -43,4 +39,7 @@ def purchase():
         item = input("What item would you like to purchase?")
     else:
         print("You exist the area with disinterest and return to the street.")
-        pickNPC()
+        pickNpc()
+file = open('interface.csv')
+lines = file.read
+pickNpc()
