@@ -8,7 +8,6 @@ def pickNpc():
     elif(name == 'T'):
         stables()
 
-
 def stables():
     print("You arrive at the stables. You see livestock of several kinds in varying quantities, some better off than the others")
     print("There is a sign listing the prices of various draft animals:")
